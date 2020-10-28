@@ -51,7 +51,7 @@
   border-style: solid;
   /*ここで三角形のサイズを決める。
   必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
-  border-width: 0 0 300px 100vw ;
+  border-width: 0 0 150px 100vw ;
   border-color: transparent transparent #fff transparent;
 }
 </style>

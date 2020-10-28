@@ -1,19 +1,19 @@
 <template>
-    <sectipn class="home-about">
+    <sectipn class="home-contact">
         <div class="section__title">
-            <div class="section__title-text">01. About Me</div>
+            <div class="section__title-text">04. contact</div>
         </div>
-        <v-container>
-            <v-row class="home-about__contents">
-            <h5>私の簡単な自己紹介です。詳細は、MORE "ABOUT" READから。</h5>
+        <v-container fluid fill-height class="home-contact__content">
+            <v-row class="home-contact__contents">
+            <h5>私が登録しているSNSです。フォローお願いします♩</h5>
             </v-row>
-            <v-row class="home-about__contents">
-                <v-col md="3" class="home-about__contents-text">
+            <v-row class="home-contact__contents">
+                <v-col md="5" class="home-contact__contents-img">
+                    <img src="../assets/img/work.jpg" alt="" class="img-fluid">
+                </v-col>
+                <v-col md="5" class="home-contact__contents-text">
                     <p>コンニチワ</p>
                     <p>natumiと申します。</p>
-                </v-col>
-                <v-col md="3" class="home-about__contents-img">
-                    <img src="../assets/img/myphoto.jpg" alt="" class="img-fluid rounded-circle">
                 </v-col>
             </v-row>
             <AppButton :button-text="buttonText" :url="url"/>
@@ -27,8 +27,8 @@ import AppButton from './AppButton.vue'
 export default {
   data () {
     return {
-      buttonText: 'more "about" read',
-      url: '/about'
+      buttonText: '>> Contact Me <<',
+      url: '/contact'
     }
   },
   components: {
@@ -38,7 +38,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.home-about__contents {
+.home-contact__content {
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height:  50vh;
+    position: relative;
+}
+.home-contact__contents {
     margin-top: 20px;
     justify-content: center;
 
@@ -50,8 +57,9 @@ export default {
         word-wrap: break-word;
     }
 }
-.home-about__contents h5 {
-    color: #e65f78;
+
+.home-contact__contents h5 {
+    color:   #ffd700;
     text-align: center;
 }
 
@@ -59,6 +67,7 @@ img {
     width: 200px !important;
     height: 200px !important;
 }
+
 .section__title {
     padding-top: 120px;
     text-align: center;
@@ -67,7 +76,7 @@ img {
         font-family: 'Londrina Outline', cursive;
         font-weight: 700;
         font-size: 40px;
-        color: #e65f78;
+        color: #ffd700;
     }
 }
 </style>

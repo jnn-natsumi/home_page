@@ -5,10 +5,13 @@
         </div>
         <v-container fluid fill-height class="home-work__content">
             <v-row class="home-work__contents">
-                <v-col md="5" class="home-work__contents-img">
+            <h5>イチバン力を入れたアプリの紹介です。他の作品は、MORE "WORK" VIEWから。</h5>
+            </v-row>
+            <v-row class="home-work__contents">
+                <v-col md="4" class="home-work__contents-img">
                     <img src="../assets/img/work.jpg" alt="" class="img-fluid">
                 </v-col>
-                <v-col md="5" class="home-work__contents-text">
+                <v-col md="4" class="home-work__contents-text">
                     <p>コンニチワ</p>
                     <p>natumiと申します。</p>
                 </v-col>
@@ -55,6 +58,11 @@ export default {
     }
 }
 
+.home-work__contents h5 {
+    color:  #1e90ff;
+    text-align: center;
+}
+
 img {
     width: 200px !important;
     height: 200px !important;
@@ -82,7 +90,7 @@ img {
   border-style: solid;
   /*ここで三角形のサイズを決める。
   必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
-  border-width: 0 0 300px 100vw ;
+  border-width: 0 0 150px 100vw ;
   border-color: transparent transparent #ffe4c4 transparent;
 }
 </style>
