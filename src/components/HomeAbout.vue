@@ -24,7 +24,7 @@ import AppButton from './AppButton.vue'
 export default {
   data () {
     return {
-      buttonText: '詳しく見る',
+      buttonText: '>>More Read<<',
       url: '/about'
     }
   },

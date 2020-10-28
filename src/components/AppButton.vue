@@ -7,7 +7,7 @@
               min-width="300"
               :to="url"
             >
-            >>{{ buttonText }}
+            {{ buttonText }}
             </v-btn>
         </v-col>
     </v-row>
