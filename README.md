@@ -1,4 +1,6 @@
 # home-page
+概要：自分のホームページサイトです。
+VueーCLIを使用して作成してます。
 
 ## Project setup
 ```
