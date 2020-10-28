@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from './src/components/Home.vue'
 import About from './src/components/About.vue'
 import Work from './src/components/Work.vue'
+import Blog from './src/components/Blog.vue'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/work',
       name: 'work',
       component: Work
+    },
+    {
+      path: '/blog',
+      name: 'blog',
+      component: Blog
     }
   ]
 })
