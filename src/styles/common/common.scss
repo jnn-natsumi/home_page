@@ -1,0 +1,4 @@
+// common.scssに各共通スタイルを読み込ませるという設計にします。
+
+@import './_mixin.scss';
+@import './_parts.scss';
