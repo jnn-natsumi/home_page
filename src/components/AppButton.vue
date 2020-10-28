@@ -3,7 +3,7 @@
         <v-col>
             <v-btn
               large
-              color="error"
+              color="#ffd700"
               min-width="300"
               :to="url"
             >
