@@ -5,6 +5,7 @@
         <HomeHero/>
         <HomeAbout/>
         <HomeWork/>
+        <HomeBlog/>
     </section>
 </template>
 
@@ -12,12 +13,14 @@
 import HomeHero from './HomeHero.vue'
 import HomeAbout from './HomeAbout.vue'
 import HomeWork from './HomeWork.vue'
+import HomeBlog from './HomeBlog.vue'
 
 export default {
   components: {
     HomeHero,
     HomeAbout,
-    HomeWork
+    HomeWork,
+    HomeBlog
   }
 }
 </script>

@@ -3,7 +3,7 @@
         <div class="section__title">
             <div class="section__title-text">02. Work</div>
         </div>
-        <v-container>
+        <v-container fluid fill-height class="home-work__content">
             <v-row class="home-work__contents">
                 <v-col md="5" class="home-work__contents-img">
                     <img src="../assets/img/work.jpg" alt="" class="img-fluid">
@@ -24,7 +24,7 @@ import AppButton from './AppButton.vue'
 export default {
   data () {
     return {
-      buttonText: '詳しく見る',
+      buttonText: 'more "work" view',
       url: '/work'
     }
   },
@@ -35,10 +35,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.home-work__content {
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height:  50vh;
+    position: relative;
+}
 .home-work__contents {
     margin-top: 20px;
     justify-content: center;
-    border: 3px solid #1e90ff;
 
     &-img {
         text-align: center;
@@ -66,7 +72,7 @@ img {
     }
 }
 
-.home-work::before {
+.home-work__content::before {
   content:"";
   position: absolute;
   bottom: 0;
@@ -76,7 +82,7 @@ img {
   border-style: solid;
   /*ここで三角形のサイズを決める。
   必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
-  border-width: 0 0 100px 100vw ;
-  border-color: transparent transparent #fff transparent;
+  border-width: 0 0 300px 100vw ;
+  border-color: transparent transparent #ffe4c4 transparent;
 }
 </style>

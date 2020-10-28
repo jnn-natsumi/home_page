@@ -24,7 +24,7 @@ import AppButton from './AppButton.vue'
 export default {
   data () {
     return {
-      buttonText: '詳しく見る',
+      buttonText: 'more "about" read',
       url: '/about'
     }
   },
@@ -38,7 +38,6 @@ export default {
 .home-about__contents {
     margin-top: 20px;
     justify-content: center;
-    border: 3px solid #e65f78;
 
     &-img {
         text-align: center;
