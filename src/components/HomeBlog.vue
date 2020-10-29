@@ -9,15 +9,15 @@
             </v-row>
             <v-row class="home-blog__contents">
                 <v-col md="4" class="home-blog__contents-img">
-                    <h4><a href="https://note.com/apart713/n/n07bd0553bc2b" target="_self">悩む行為で自分の人生を踏みとどまってる自分への鼓舞録。</a></h4>
+                    <h4><a href="https://note.com/apart713/n/n07bd0553bc2b" target="_bank">悩む行為で自分の人生を踏みとどまってる自分への鼓舞録。</a></h4>
                     <img src="../assets/img/blog1.png" alt="" class="img-fluid">
                 </v-col>
                 <v-col md="4" class="home-blog__contents-img">
-                    <h4><a href="https://note.com/apart713/n/n9a43ca41294d" target="_self">人生の帰路（1）偏差値40から偏差値60の大学へ編入した話。</a></h4>
+                    <h4><a href="https://note.com/apart713/n/n9a43ca41294d" target="_bank">人生の帰路（1）偏差値40から偏差値60の大学へ編入した話。</a></h4>
                     <img src="../assets/img/blog2.png" alt="" class="img-fluid">
                 </v-col>
                 <v-col md="4" class="home-blog__contents-img">
-                    <h4><a href="https://note.com/apart713/n/n409aaad912c7" target="_self">なぜ、完璧主義は悪とされるのか。</a></h4>
+                    <h4><a href="https://note.com/apart713/n/n409aaad912c7" target="_bank">なぜ、完璧主義は悪とされるのか。</a></h4>
                     <img src="../assets/img/blog3.png" alt="" class="img-fluid">
                 </v-col>
             </v-row>

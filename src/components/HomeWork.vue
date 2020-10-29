@@ -8,12 +8,16 @@
             <h5>イチバン力を入れたアプリの紹介です。他の作品は、MORE "WORK" VIEWから。</h5>
             </v-row>
             <v-row class="home-work__contents">
-                <v-col md="4" class="home-work__contents-img">
+                <v-col md="3" class="home-work__contents-img">
                     <img src="../assets/img/work.jpg" alt="" class="img-fluid">
                 </v-col>
                 <v-col md="4" class="home-work__contents-text">
-                    <p>コンニチワ</p>
-                    <p>natumiと申します。</p>
+                    <p>ユーザー投稿型の旅行アプリ "APERE" （アペレ）です。<br>
+                       ２箇所指定すると中間地点の住所を表示してくれます。<br></p>
+                    <p>ターゲットユーザは、遠距離カップルを想定しています！</p>
+                    <p>使用言語/フレームワークは、<br>Ruby/Ruby on Rails/HTML&CSS/JavaScriptなどです。<br>
+                       制作期間は約２ヶ月間で、RSpecの導入にてこずりました。</p>
+                    <p>WORKページから実際にアプリを使ってみてください！</p>
                 </v-col>
             </v-row>
             <AppButton :button-text="buttonText" :url="url"/>
@@ -61,6 +65,11 @@ export default {
 .home-work__contents h5 {
     color:  #1e90ff;
     text-align: center;
+}
+
+.home-work__contents p {
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 15px;
 }
 
 img {
