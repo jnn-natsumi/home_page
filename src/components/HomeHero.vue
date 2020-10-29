@@ -14,7 +14,7 @@
 
 <style lang="scss" scoped>
 .home-hero__content {
-    background: url("../assets/img/universal.jpg");
+    background: url("../assets/img/home.jpg");
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -51,7 +51,7 @@
   border-style: solid;
   /*ここで三角形のサイズを決める。
   必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
-  border-width: 0 0 100px 100vw ;
+  border-width: 0 0 150px 100vw ;
   border-color: transparent transparent #fff transparent;
 }
 </style>
