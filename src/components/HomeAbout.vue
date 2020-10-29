@@ -9,8 +9,10 @@
             </v-row>
             <v-row class="home-about__contents">
                 <v-col md="3" class="home-about__contents-text">
-                    <p>コンニチワ</p>
-                    <p>natumiと申します。</p>
+                    <p>こんにちは。natsumiと申します。</p>
+                    <p>エンジニアになりたく、前職を退職して転職活動中です(2020/11)。</p>
+                    <p>最近は、羽生さんや藤井さんに感動して、将棋を勉強中です。<br>
+                       趣味と言えるレベルまで上達したい。</p>
                 </v-col>
                 <v-col md="3" class="home-about__contents-img">
                     <img src="../assets/img/myphoto.jpg" alt="" class="img-fluid rounded-circle">
@@ -53,6 +55,10 @@ export default {
 .home-about__contents h5 {
     color: #e65f78;
     text-align: center;
+}
+
+.home-about__contents p {
+    font-family: 'Kosugi Maru', sans-serif;
 }
 
 img {

@@ -91,6 +91,6 @@ img {
   /*ここで三角形のサイズを決める。
   必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
   border-width: 0 0 150px 100vw ;
-  border-color: transparent transparent #ffe4c4 transparent;
+  border-color: transparent transparent #66cdaa transparent;
 }
 </style>

@@ -23,14 +23,14 @@ export default {
 
 <style lang="scss" scoped>
 .background-holder__content {
-    background: url("../assets/img/universal.jpg");
+    background: url("../assets/img/background.jpg");
     background-size: cover;
     background-position: center center;
     width: 100%;
     height: 30vh;
 
     &-text {
-        font-family: 'Londrina Outline', cursive;
+        font-family: 'Staatliches', cursive;
         color: white;
         text-align: center;
         font-size: 28px;
