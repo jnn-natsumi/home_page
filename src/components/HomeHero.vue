@@ -14,7 +14,7 @@
 
 <style lang="scss" scoped>
 .home-hero__content {
-    background: url("../assets/img/universal.jpg");
+    background: url("../assets/img/home.jpg");
     background-size: cover;
     background-position: center center;
     width: 100%;
