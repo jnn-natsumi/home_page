@@ -82,8 +82,8 @@ img {
 }
 
 .icon {
-    width: 200px !important;
-    height: 200px !important;
+    width: 50px !important;
+    height: 50px !important;
     transition-property: opacity;
     transition-duration: 1s;
     transition-timing-function: ease;
@@ -92,11 +92,6 @@ img {
 
 .icon:hover {
     opacity: 0.5;
-}
-
-.icon {
-    width: 50px !important;
-    height: 50px !important;
 }
 
 ul {
