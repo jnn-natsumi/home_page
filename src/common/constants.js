@@ -12,10 +12,10 @@ export default {
       name: 'Work',
       url: '/work'
     },
-    {
-      name: 'Blog',
-      url: '/blog'
-    },
+    // {
+    //   name: 'Blog',
+    //   url: '/blog'
+    // },
     {
       name: 'Contact',
       url: '/contact'

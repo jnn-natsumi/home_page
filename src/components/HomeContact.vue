@@ -59,7 +59,7 @@ export default {
 }
 
 .home-contact__contents h5 {
-    color:   #3cb371;
+    color:   #ffa500;
     text-align: center;
 }
 
@@ -76,7 +76,7 @@ img {
         font-family: 'Londrina Outline', cursive;
         font-weight: 700;
         font-size: 40px;
-        color: #3cb371;
+        color: #ffa500;
     }
 }
 </style>
