@@ -49,6 +49,7 @@
         </v-col>
       </v-row>
       <p>画像をクリックしてもリンク先へ移動できます！</p>
+      <div class="margin"></div>
     </v-container>
   </section>
 </template>
@@ -114,5 +115,9 @@ ul li {
 p {
   text-align: center;
   padding-bottom: 10px;
+}
+
+.margin {
+  padding-bottom: 20px;
 }
 </style>
