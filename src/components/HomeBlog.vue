@@ -5,7 +5,8 @@
         </div>
         <v-container fluid fill-height class="home-blog__content">
             <v-row class="home-blog__contents">
-            <h5>よく見ていただいてる３つの記事です。MORE "BLOG" READより、Qiitaなどのブログも紹介しています。</h5>
+            <h5>よく見ていただいてる３つの記事です。<br>
+                Blog詳細画面は作成中です！しばしお待ちください。</h5>
             </v-row>
             <v-row class="home-blog__contents">
                 <v-col md="4" class="home-blog__contents-img">
@@ -32,8 +33,8 @@ import AppButton from './AppButton.vue'
 export default {
   data () {
     return {
-      buttonText: 'more "blog" read',
-      url: '/blog'
+      buttonText: 'comming soon!',
+      url: '/'
     }
   },
   components: {
