@@ -5,21 +5,21 @@
         </div>
         <v-container fluid fill-height class="home-blog__content">
             <v-row class="home-blog__contents">
-            <h5>よく見ていただいてる３つの記事です。<br>
+            <h5>Qiitaで投稿した記事です。<br>
                 Blog詳細画面は作成中です！しばしお待ちください。</h5>
             </v-row>
             <v-row class="home-blog__contents">
                 <v-col md="4" class="home-blog__contents-img">
-                    <h4><a href="https://note.com/apart713/n/n07bd0553bc2b" target="_bank">悩む行為で自分の人生を踏みとどまってる自分への鼓舞録。</a></h4>
-                    <img src="../assets/img/blog1.png" alt="" class="img-fluid">
+                    <h5><a href="https://qiita.com/natsumi_23/items/531c53e474a521923a9e" target="_bank">Ruby / RailsでWEBアプリを作成する -- ⑴要件定義、基本設計、詳細設計</a></h5>
+                    <img src="../assets/img/blog1.jpg" alt="" class="img-fluid">
                 </v-col>
                 <v-col md="4" class="home-blog__contents-img">
-                    <h4><a href="https://note.com/apart713/n/n9a43ca41294d" target="_bank">人生の帰路（1）偏差値40から偏差値60の大学へ編入した話。</a></h4>
-                    <img src="../assets/img/blog2.png" alt="" class="img-fluid">
+                    <h5><a href="https://qiita.com/natsumi_23/items/1443b79717ccecda0629" target="_bank">エラーが発生し、MySQLにログインできないためアンインストールを行う</a></h5>
+                    <img src="../assets/img/blog2.jpg" alt="" class="img-fluid">
                 </v-col>
                 <v-col md="4" class="home-blog__contents-img">
-                    <h4><a href="https://note.com/apart713/n/n409aaad912c7" target="_bank">なぜ、完璧主義は悪とされるのか。</a></h4>
-                    <img src="../assets/img/blog3.png" alt="" class="img-fluid">
+                    <h5><a href="https://qiita.com/natsumi_23/items/ee4ad6b0d39e18f548fe" target="_bank">Vue cliで作ったホームページをHerokuでデプロイする </a></h5>
+                    <img src="../assets/img/blog3.jpg" alt="" class="img-fluid">
                 </v-col>
             </v-row>
             <AppButton :button-text="buttonText" :url="url"/>
@@ -82,6 +82,11 @@ export default {
         font-size: 40px;
         color:#ffffff;
     }
+}
+
+img {
+    width: 300px !important;
+    height: 150px !important;
 }
 .home-blog__content::before {
   content:"";

@@ -59,6 +59,7 @@ export default {
 
     &-text {
         word-wrap: break-word;
+        z-index: 1;
     }
 }
 
