@@ -24,12 +24,16 @@
           </v-row>
 
           <v-row class="about__contents">
+            <v-col md="3" class="about__contents-text">
+              <img src="../assets/img/me2.jpg" alt="" class="img-fluld rounded-circle">
+              <p>耳飾りはしない女 2019年</p>
+            </v-col>
             <v-col md="5" class="about__contents-text">
               <ul>
                 <p>趣味</p>
                 <li>映画 ： ショーシャンクの空に</li>
                 <li>娯楽 ： 将棋</li>
-                <li>旅行 ： 台湾とベトナムは住みたい国 </li>
+                <li>旅行 ： 台湾とベトナムは住みたいほど好き </li>
               </ul>
               <ul>
                 <p>一言</p>
@@ -44,7 +48,8 @@
               <p>証明写真の時 2019年</p>
             </v-col>
           </v-row>
-          <p>写真は全て『<a href="https://ai-art.tokyo/">AI画伯</a>』に書いてもらいました。</p>
+          <p>写真は全て『<a href="https://ai-art.tokyo/">AI画伯</a>』に書いてもらったnatsumiです。</p>
+          <div class="margin"></div>
         </v-container>
     </section>
 </template>
@@ -103,5 +108,9 @@ ul li {
 p {
   text-align: center;
   padding-bottom: 5px;
+}
+
+.margin {
+  padding-bottom: 20px;
 }
 </style>

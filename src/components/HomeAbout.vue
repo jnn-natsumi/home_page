@@ -8,10 +8,10 @@
             <h5>私の簡単な自己紹介です。詳細は、MORE "ABOUT" READから。</h5>
             </v-row>
             <v-row class="home-about__contents">
-                <v-col md="3" class="home-about__contents-text">
+                <v-col md="4" class="home-about__contents-text">
                     <p>こんにちは。natsumiと申します。</p>
-                    <p>エンジニアになりたく、前職を退職して転職活動中です(2020/11)。</p>
-                    <p>最近は、羽生さんや藤井さんに感動して、将棋を勉強中です。<br>
+                    <p>エンジニアになりたく、<br>前職を退職して転職活動中です(2020/11)。</p>
+                    <p>最近は、羽生さんや藤井さんに感動して、<br>将棋を勉強中です。<br>
                        趣味と言えるレベルまで上達したい。</p>
                 </v-col>
                 <v-col md="3" class="home-about__contents-img">
